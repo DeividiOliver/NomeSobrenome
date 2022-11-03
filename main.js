@@ -4,13 +4,16 @@ const gerenciaDeNomes = require("./gerenciaDeNomes")
 console.log ("Olá mundo show")
 
 function executar_01() {
-    alert ("FUI DISPARADO")
-}
 
 const nome = document.querySelector("#nome").value
-const sobrenome = document.querySelector("sobrenome").value
+const sobrenome = document.querySelector("#sobrenome").value
 
-gerenciaDeNomes.juntarDoisNomes(nome, sobrenome)
+const resultado = gerenciaDeNomes.juntarDoisNomes(nome, sobrenome)
 
-const botao_01 = document.querySelector("#botao_ex_01")
+
+const divResultado = document.querySelector("#resultado_01")
+divResultado.innerHTML = resultado
+
 botao_01.addEventListener("click", executar_01)
+
+}

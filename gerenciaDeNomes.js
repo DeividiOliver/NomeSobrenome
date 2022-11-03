@@ -1,6 +1,6 @@
 
 function juntarDoisNomes(primeiroNome, sobrenome) { 
-    return `${primeiroNome} OUTRA COISA ${sobrenome}`
+    return `${primeiroNome} ${sobrenome}`
 }
 function nomeEhValido(nome) {
     return nome != ""
