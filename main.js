@@ -1,5 +1,5 @@
 import "./style.scss"
-const gerenciaDeNomes = require("./js/gerenciaDeNomes")
+const gerenciaDeNomes = require("./gerenciaDeNomes")
 
 console.log ("Olá mundo show")
 
